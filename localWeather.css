@@ -1,0 +1,80 @@
+body {
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+
+}
+
+html {
+	height: 100%;
+	margin: 0;
+}
+.container {
+  	text-align: center;
+  	font-family: 'Lato', sans-serif;
+  	font-weight: 700;
+  	padding-top: 5%;
+}
+
+.jumbotron {
+  position: relative;
+  background-color: #ffffff;
+  margin: 30px;
+  opacity: 0.5;
+  font-family: 'Lato', sans-serif;
+  font-size: 60px;
+  border: 1px solid #696969;
+  filter: alpha(opacity=60);
+  color: ;
+}
+
+.weather {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+}
+
+.temperature {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  padding-top : 50px;
+}
+
+#displayLocation {
+  padding-top: 30px;
+}
+
+#displayIcon {
+  font-size: 30px;
+}
+#displayTempUnit {
+  color: #e8ef17;
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+#displayTempUnit:hover {
+  color: gray;
+  opacity: 0.5;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#displayWindUnit {
+  color: #e8ef17;
+  text-decoration: none;
+}
+
+#displayWindUnit:hover {
+  color: gray;
+  opacity: 0.5;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+
+#copyright {
+	text-align: center;
+	padding-top: 10%;
+	font-weight: 700;
+	color: #C0C0C0;
+	font-size: smaller;
+}

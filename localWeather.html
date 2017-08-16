@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Local Weather and Sunny 16 light app</title>
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/32e8ca8779.js"></script>
+    <link type="text/css" rel="stylesheet" href="localWeather.css">
+
+
+  </head>
+  <body>
+
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Local Weather App</h1>
+
+
+    <div class="weather">
+      <div id="displayLocation"></div>
+      <div id="displayIcon"></div>
+      <div id="displayDescription"></div>
+    </div>
+    <div class="temperature">
+
+      <span id="displayTemp"></span>
+      <span> <a href="#" id="displayTempUnit"></a>
+      <span id="displayWind"></span>
+      <span> <a href="#" id="displayWindUnit"></a>
+
+    </div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12" style="text-align:center">
+			<p id="copyright"> Copyright © Manon Jacquin 2017. All Rights Reserved. </p>
+		</div>
+	</div>
+</div>
+
+    <script type="text/javascript" src="localWeather.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
